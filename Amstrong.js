@@ -14,6 +14,19 @@ if (temp === sum) {
     console.log("Not Armstrong");
 }
 
+//Largest of Three Numbers
+let a = 10;
+let b = 25;
+let c = 15;
+
+if (a > b && a > c) {
+    console.log(a);
+} else if (b > c) {
+    console.log(b);
+} else {
+    console.log(c);
+}
+
 // Each Word Reverse
 let str = "Hello World";
 let words = str.split(" ");
