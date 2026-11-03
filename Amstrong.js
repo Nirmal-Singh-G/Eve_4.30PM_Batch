@@ -13,3 +13,20 @@ if (temp === sum) {
 } else {
     console.log("Not Armstrong");
 }
+
+// Each Word Reverse
+let str = "Hello World";
+let words = str.split(" ");
+let result = "";
+
+for (let word of words) {
+    let rev = "";
+
+    for (let i = word.length - 1; i >= 0; i--) {
+        rev = rev + word[i];
+    }
+
+    result = result + rev + " ";
+}
+
+console.log(result.trim());
